@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(219, 219, 219);
+
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.form-card {
+    padding: 11% 14%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+
+input[type=text]:focus {
+    border: 3px solid green;
+}
+
+.form-password {
+    margin-top: 7%;
+}
+
+
+.login-btn {
+    padding: 5%;
+    width: 40%;
+    border-radius: 30px;
+    margin-top: 7%;
+    transition: 0.5s;
+
+}
+
+.login-btn:hover {
+    background-color: rgba(0, 128, 0, 0.448);
+    border: none;
+}
+
+/* CSS FOR FORM-TEXT */
+.form-text {
+    font-family: 'Raleway';
+    font-weight: 900;
+    display: block;
+    color: #555;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 30px;
+    padding-bottom: 32px;
+}
+
+input[type=text]:focus {
+    border: solid green;
+}
+
+input[type=submit] {
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 8%;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    color: green;
+}

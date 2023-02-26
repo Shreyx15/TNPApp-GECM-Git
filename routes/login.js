@@ -41,6 +41,3 @@ router.post("/login", function (req, res) {
 module.exports = router;
 
 
-// module.exports = fetch('https://tnpapp.gecmodasa.ac.in/users/login/')
-//     .then(response => response.json())
-
