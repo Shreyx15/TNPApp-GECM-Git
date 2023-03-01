@@ -1,5 +1,12 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
+app.use(
+    cors({
+        origin: true,
+        credentials: true,
+    })
+);
 const bodyParser = require('body-parser');
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
